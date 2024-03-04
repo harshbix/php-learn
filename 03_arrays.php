@@ -2,11 +2,11 @@
 // ------------ARRAYS------------
 //  array is a data type or data structure that holds multiple value
 // syntax
-// $fruits = ['apple', 'mango', 'banana'];
-// $numbers = array(2, 6, 7, 10);
+$fruits = ['apple', 'mango', 'banana'];
+$numbers = array(2, 6, 7, 10);
 
-// // var_dump($fruits);
-// var_dump($numbers);
+var_dump($fruits);
+var_dump($numbers);
 
 /*
 ---------TYPES OF ARRAY-----------
@@ -18,7 +18,7 @@
 // Indexed array syntax
 
 $students = ['Junior', 'Faith', 'Yvonne', 'Janeth'];
-// print_r ($students);
+print_r ($students);
 
 //Associative array syntax
 
@@ -27,27 +27,28 @@ $hex = [
     'blue' => 'ff0000',
     'green' => '00ff00'
 ];
-// print_r ($hex['blue']);
+print_r ($hex['blue']);
 
 // multidimensional array syntax
 $people = 
 [
     [
-        'first_name' = 'Junior',
-        'company' = 'HL4L',
-        'adress' = 'Uyole'
+        'first_name' => 'Junior',
+        'company' => 'HL4L',
+        'adress' => 'Uyole'
     ],
     [
-        'first_name' = 'Salvatory',
-        'company' = 'THE BIG 6',
-        'adress' = 'Tunduma'
+        'first_name' => 'Salvatory',
+        'company' => 'THE BIG 6',
+        'adress' => 'Tunduma'
     ],
     [
-        'first_name' = 'Owen',
-        'company' = 'Mahenge Group, LLC',
-        'adress' = 'Mlowo'
+        'first_name' => 'Owen',
+        'company' => 'Mahenge Group, LLC',
+        'adress' => 'Mlowo'
     ]
-]
+    ];
 
+    var_dump(json_encode($people[2]));
 
 ?>
