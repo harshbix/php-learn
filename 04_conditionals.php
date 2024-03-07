@@ -44,14 +44,19 @@
 
 //switch syntax
 
-$favcolor = 'red';
+$favcolor = null;
 
-switch ($variable) {
-    case 'value':
+switch ($favcolor) {
+    case 'red':
         # code...
+        echo 'My favorate color is ' . $favcolor;
         break;
-    
+    case 'green':
+        # code...
+        echo 'My favorate color is ' . $favcolor;
+        break;
     default:
         # code...
+        echo 'No Color added as favorite color';
         break;
 }
