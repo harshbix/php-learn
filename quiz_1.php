@@ -5,7 +5,22 @@
         create a new array containing only the even numbers from the 
         original array, and then display the result.
 */
+$myArr = [5, 6, 45, 34, 23, 78, 2, 4, 89];
+$newArray = array();
+foreach ($myArr as $arrNumber) {
+    # code...
+    if ($arrNumber % 2 == 0) {
+        # code...
+        $newArray[] = $num ;
+    } else {
+        # code...
+        echo 'no even number';
+    }
+    
+}
 
+echo 'The even numbers are: ';
+var_dump($newArray);
 
 /*
     2. conditional logic:
