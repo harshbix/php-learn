@@ -6,6 +6,7 @@
         original array, and then display the result.
 */
 
+
 /*
     2. conditional logic:
         - develop a php program that prompts the user to enter their age 
@@ -18,9 +19,16 @@
 /*
     3.Variable Operations:
         - Create a php script that initializes two variables
-        one conataining a string and the other a number.
+        one containing a string and the other a number.
         concatinate the string with the number and display 
         the result. Then perfom a mathematical operation on the
         number (eg square it) and display the updated value.
 */
+
+$strVar = 'hello';
+$numVar = 4;
+
+echo "concatinated : $strVar . $numVar";
+echo "</br>";
+echo "operated : " . $numVar ** 2
 ?>
